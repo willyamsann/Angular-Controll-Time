@@ -61,23 +61,23 @@
             <tbody>
               <tr>
                 <th scope="row">
-                 27/08/2021
+                 05/10/2021
                 </th>
                 <td>
-                 08:00
+                  {{schedules.entryDate.getHours()}} : {{schedules.entryDate.getMinutes()}}
                 </td>
                 <td>
-                  12:00
+                  {{schedules.lunchTimeDate.getHours()}} :    {{schedules.lunchTimeDate.getMinutes()}}
                 </td>
                 <td>
-                  13:00
+                  {{schedules.returnLunchTimeDate.getHours()}} : {{schedules.returnLunchTimeDate.getMinutes()}}
                 </td>
                 <td>
-                  17:00
+                  {{schedules.departureTimeDate.getHours()}}  : {{schedules.departureTimeDate.getMinutes()}}
                 </td>
               
                 <td>
-                  <i class="fas fa-arrow-up text-success mr-3"></i> 08:00
+                  <i class="fas fa-arrow-up text-success mr-3"></i>  {{schedules.workedHours}}
                 </td>
               </tr>
             </tbody>
